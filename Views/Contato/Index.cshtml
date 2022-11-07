@@ -2,4 +2,62 @@
     ViewData["Title"] = "Lista de contatos";
 }
 
-<h1>Listagem de contatoss</h1>
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="Criar">Adicionar contato</a>
+    </div>
+    <br />
+    <h1>Listagem de contatos</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Twitter</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>João</td>
+                <td>(00)099999999</td>
+                <td>joaoj</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary">Editar</a>
+                        <a role="button" class="btn btn-danger">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Maria</td>
+                <td>(00)088888888</td>
+                <td>mariam</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary">Editar</a>
+                        <a role="button" class="btn btn-danger">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Diego</td>
+                <td>(00)077777777</td>
+                <td>diegod</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary">Editar</a>
+                        <a role="button" class="btn btn-danger">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

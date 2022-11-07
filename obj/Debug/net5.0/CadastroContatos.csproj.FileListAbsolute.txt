@@ -355,3 +355,6 @@ C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\Ca
 C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\CadastroContatos.genruntimeconfig.cache
 C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\ref\CadastroContatos.dll
 C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Contato\Index.cshtml.g.cs
+C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Contato\Apagar.cshtml.g.cs
+C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Contato\Criar.cshtml.g.cs
+C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Contato\Editar.cshtml.g.cs
