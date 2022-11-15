@@ -2,17 +2,16 @@
 @{
     ViewData["Title"] = "Confirma excluir";
 }
- 
+
 <div class="text-center">
 
     <h2>Deseja realmente excluir o registro (@Model.Nome)?</h2>
 
 </div>
 
-    <div class="d-grid gap-2 col-6 mx-auto">
-        <br/>
-        <a class="btn btn-secondary btn-block" asp-controller="Contato" asp-action="Index" role="button">Cancelar</a>
-        <br/>
-        <a class="btn btn-danger btn-block" asp-controller="Contato" asp-action="Apagar" asp-route-id="@Model.Id" role="button"><strong>Confirma exclusão</strong> </a>
-        @*<a role="button" class="btn btn-danger btn-block" asp-controller="Contato" asp-action="Apagar" asp-route-id="@Model.Id"><strong>Confirma exclusão</strong> </a>*@
-    </div>
+<div class="d-grid gap-2 col-6 mx-auto">
+    <br />
+    <a class="btn btn-secondary btn-block" asp-controller="Contato" asp-action="Index" role="button">Cancelar</a>
+    <br />
+    <a class="btn btn-danger btn-block" asp-controller="Contato" asp-action="Apagar" asp-route-id="@Model.Id" role="button"><strong>Confirma exclusão</strong> </a>
+</div>

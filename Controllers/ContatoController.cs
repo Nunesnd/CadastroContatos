@@ -2,6 +2,7 @@
 using CadastroContatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace CadastroContatos.Controllers
 {
@@ -44,8 +45,13 @@ namespace CadastroContatos.Controllers
         [HttpPost]
         public IActionResult Criar(ContatoModel contato)
         {
-            _contatoRepositorio.Adicionar(contato);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _contatoRepositorio.Adicionar(contato);
+                return RedirectToAction("Index");
+            }
+
+            return View(contato);
         }
 
         [HttpPost]
