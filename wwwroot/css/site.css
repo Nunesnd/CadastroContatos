@@ -74,3 +74,12 @@ body {
     color: #FF0000;
     background-color: #fef99c;
 }
+
+.close-alert{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
