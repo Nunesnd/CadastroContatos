@@ -394,3 +394,4 @@ C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\Ca
 C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Usuario\Editar.cshtml.g.cs
 C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogOut.cshtml.g.cs
+C:\Users\nunes\Documents\Mega pasta pessoal\GitHub\testeDesenvolvimentoCsharp\CadastroContatos\obj\Debug\net5.0\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
