@@ -1,4 +1,5 @@
-﻿using CadastroContatos.Models;
+﻿using CadastroContatos.Filtros;
+using CadastroContatos.Models;
 using CadastroContatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System;
 
 namespace CadastroContatos.Controllers
 {
+    [PaginaUsrLogado]
     public class UsuarioController : Controller
     {
 

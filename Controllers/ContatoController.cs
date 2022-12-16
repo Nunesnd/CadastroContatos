@@ -1,11 +1,12 @@
-﻿using CadastroContatos.Models;
+﻿using CadastroContatos.Filtros;
+using CadastroContatos.Models;
 using CadastroContatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace CadastroContatos.Controllers
 {
+    [PaginaUsrLogado]
     public class ContatoController : Controller
     {
         private readonly IContatoRepositorio _contatoRepositorio;
